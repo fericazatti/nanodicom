@@ -1,0 +1,4 @@
+pynetdicom
+pydicom
+python-dotenv
+requests
