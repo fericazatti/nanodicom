@@ -1,1 +1,7 @@
-data
+# Ignora todos los archivos dentro de data/ y subdirectorios
+data/**/*
+
+# Pero no ignores los directorios en sí
+!data/
+!data/dicom/
+!data/zips/
