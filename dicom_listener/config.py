@@ -6,7 +6,9 @@ from pathlib import Path
 env_path = Path(__file__).resolve().parent.parent / ".env"
 base_dir = env_path.parent
 
+#Prueba comando
 # Cargar .env
+#prueba ocmando en dev
 load_dotenv(dotenv_path=env_path)
 
 def resolve_path(env_var, default_subdir):
